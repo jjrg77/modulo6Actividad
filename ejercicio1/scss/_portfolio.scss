@@ -1,0 +1,16 @@
+#portfolio {
+    margin: auto;
+    .content-center {
+        margin-top: 10px;
+        text-align: center;
+        h2 {
+            font-size: 20px;
+        }
+        p {
+            padding: 0 30px 0 30px;
+            line-height: normal;
+            text-align: justify;
+            font-size: 15px;
+        }
+    }
+}

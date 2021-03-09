@@ -1,0 +1,61 @@
+.navbar {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-image: $background;
+    .icon {
+        color: #2f3640;
+        margin-right: 5px;
+        font-size: 1rem;
+    }
+}
+
+.nav-link {
+    font-family: 'Akaya Telivigala', cursive;
+    padding-top: 50px;
+    color: #2f3640;
+    margin-right: 2rem;
+    font-size: 1rem;
+    border-bottom: 4px solid transparent;
+    transition: border 0.3s linear;
+    -webkit-transition: border 0.3s linear;
+    -moz-transition: border 0.3s linear;
+    -ms-transition: border 0.3s linear;
+    -o-transition: border 0.3s linear;
+    color: black;
+    &:hover {
+        border-bottom-color: #fe9a2e;
+        color: #2f3640;
+    }
+}
+
+.logo {
+    max-width: 120px;
+}
+
+.navbar-toggler {
+    font-size: 2rem;;
+    &:focus{
+        outline: none;
+    }
+}
+
+#imgCab {
+    background-image: url("../img/veget1.webp");
+    background-size: cover;
+    height: 30rem;
+    color: #fff;
+    text-align: center;
+    h1 {
+        font-family: 'Akaya Telivigala', cursive; 
+        font-size: 4rem;
+        padding-top: 10rem;
+    }
+    .arrow {
+        font-size: 2rem;
+        color: #fff;
+    }
+    &:hover {
+        padding-top: 5rem;
+    }
+}
